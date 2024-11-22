@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -111,7 +117,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.25,
-        "min_connection": 0.0,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -171,7 +177,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +208,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -452,14 +467,146 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgb(0, 72, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Signal",
+        "pcb_color": "rgb(0, 0, 255)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_assignments": {
+      "Net-(D2-A)": "Power",
+      "Net-(J1-Pin_1)": "Power",
+      "Net-(J10-Pin_1)": "Signal",
+      "Net-(J10-Pin_2)": "Signal",
+      "Net-(J11-Pin_1)": "Signal",
+      "Net-(J11-Pin_2)": "Signal",
+      "Net-(J12-Pin_1)": "Signal",
+      "Net-(J12-Pin_2)": "Signal",
+      "Net-(J13-Pin_1)": "Signal",
+      "Net-(J13-Pin_2)": "Signal",
+      "Net-(J14-Pin_1)": "Signal",
+      "Net-(J14-Pin_2)": "Signal",
+      "Net-(J15-Pin_1)": "Signal",
+      "Net-(J15-Pin_2)": "Signal",
+      "Net-(J8-Pin_1)": "Signal",
+      "Net-(J8-Pin_2)": "Signal",
+      "Net-(J9-Pin_1)": "Signal",
+      "Net-(J9-Pin_2)": "Signal",
+      "Net-(U1-+)": "Signal",
+      "Net-(U1--)": "Signal"
+    },
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/OC2B"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/OC0B"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/OC0A"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Echo&Trig"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/B"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/A"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/OC2A"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/C"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/IN4"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/IN1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/IN2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/IN3"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/NTC_Vout(ADC3)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/SDA"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/SCL"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/ADC6"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/ADC7"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
