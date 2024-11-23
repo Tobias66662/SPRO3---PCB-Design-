@@ -1904,12 +1904,6 @@
 		(uuid "18acca86-b1b3-4ec7-85d1-39c1b9971f03")
 	)
 	(junction
-		(at 74.93 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2200d2c9-f3a5-4007-99b6-80efd2be6a1a")
-	)
-	(junction
 		(at 149.86 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1920,6 +1914,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31b3e7ef-f2ea-47bd-9a78-cc093741ba90")
+	)
+	(junction
+		(at 74.93 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3de8e55e-7f0c-419e-b77f-b904112be346")
 	)
 	(junction
 		(at 184.15 69.85)
@@ -1998,6 +1998,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f22ddf85-a381-4cae-be48-5ba52f8dc81f")
+	)
+	(junction
+		(at 196.85 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9683fb7-d858-4ed2-8fac-8cd3a1b28fb4")
 	)
 	(wire
 		(pts
@@ -2181,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 55.88) (xy 78.74 55.88)
+			(xy 73.66 55.88) (xy 74.93 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2261,16 +2267,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 55.88) (xy 74.93 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "766ce226-12f3-4ac5-a073-cb9675a27b91")
-	)
-	(wire
-		(pts
 			(xy 60.96 80.01) (xy 60.96 74.93)
 		)
 		(stroke
@@ -2308,6 +2304,16 @@
 			(type default)
 		)
 		(uuid "8c5637e3-98f7-4ca8-91e1-5b0553ec8ad5")
+	)
+	(wire
+		(pts
+			(xy 74.93 55.88) (xy 78.74 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e934069-d168-4e01-8e25-165db12b3da0")
 	)
 	(wire
 		(pts
@@ -2411,16 +2417,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 69.85) (xy 107.95 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1690b60-a975-48d5-8374-ea17d7fea2d4")
-	)
-	(wire
-		(pts
 			(xy 180.34 69.85) (xy 184.15 69.85)
 		)
 		(stroke
@@ -2431,6 +2427,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 69.85) (xy 196.85 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be46dacf-f89c-438f-addc-640c77d462d9")
+	)
+	(wire
+		(pts
 			(xy 95.25 105.41) (xy 107.95 105.41)
 		)
 		(stroke
@@ -2438,6 +2444,16 @@
 			(type default)
 		)
 		(uuid "c3d01806-236c-4800-b4a2-ea1c77058a31")
+	)
+	(wire
+		(pts
+			(xy 93.98 69.85) (xy 107.95 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6ecac5-a86c-456c-b1dd-e55d3de7dc4c")
 	)
 	(wire
 		(pts
@@ -2549,6 +2565,150 @@
 		)
 		(uuid "ff0d8552-96d2-4c18-9459-6b057702c9d4")
 	)
+	(netclass_flag ""
+		(length 1)
+		(shape dot)
+		(at 92.71 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00d4f6de-8cf2-4a07-8664-c11fff8b3225")
+		(property "Netclass" "Signal"
+			(at 93.4085 92.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape dot)
+		(at 86.36 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "120ddb43-b444-4cfd-a7dc-1c4a51291c72")
+		(property "Netclass" "Signal"
+			(at 87.0585 44.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape dot)
+		(at 91.44 45.72 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e758926-628c-4684-ab35-8696eb8cc290")
+		(property "Netclass" "Battery Power"
+			(at 90.44 45.0215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape dot)
+		(at 107.95 87.63 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2e52f21f-7ab8-491e-9b9c-4ec55813183f")
+		(property "Netclass" "Battery Power"
+			(at 108.95 86.9315 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape dot)
+		(at 102.87 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dec0e3a-373c-4c4d-9faa-ac34b5fc2d43")
+		(property "Netclass" "Battery Power"
+			(at 103.5685 68.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape dot)
+		(at 64.77 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1bfc763-c329-4777-98bd-bb3ef16bfc60")
+		(property "Netclass" "Battery Power"
+			(at 65.4685 68.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 83.82 38.1 90)
@@ -2559,7 +2719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0110fe7a-fe79-40a7-98c6-1faac22c6ae5")
-		(property "Reference" "J?"
+		(property "Reference" "J2"
 			(at 82.55 37.4649 90)
 			(effects
 				(font
@@ -2568,7 +2728,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Analog PIN"
+		(property "Value" "ADC PIN"
 			(at 82.55 40.0049 90)
 			(effects
 				(font
@@ -2577,7 +2737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 83.82 38.1 0)
 			(effects
 				(font
@@ -2610,7 +2770,7 @@
 		(instances
 			(project ""
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "J?")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2625,7 +2785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04997f74-16b3-45bc-bee4-b34d9681c977")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 99.822 60.198 90)
 			(effects
 				(font
@@ -2697,7 +2857,7 @@
 		(instances
 			(project ""
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2713,7 +2873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "083d89bd-89f8-44fb-a5ff-0dcbd3761eb4")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 71.12 85.4709 0)
 			(effects
 				(font
@@ -2731,7 +2891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 68.2752 91.44 0)
 			(effects
 				(font
@@ -2767,7 +2927,7 @@
 		(instances
 			(project ""
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2834,6 +2994,73 @@
 			(project ""
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 198.12 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2589dec2-9317-4baf-a662-c0c610308cab")
+		(property "Reference" "#PWR05"
+			(at 194.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 201.93 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 198.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "604b8e71-1fdc-4048-8c03-6e96db0ce694")
+		)
+		(instances
+			(project ""
+				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3050,7 +3277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f061e59-25f5-43be-82fc-207f8298a68f")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 84.455 88.9 0)
 			(effects
 				(font
@@ -3066,7 +3293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 83.82 93.98 0)
 			(effects
 				(font
@@ -3099,7 +3326,7 @@
 		(instances
 			(project ""
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3115,7 +3342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51060f32-9720-4475-8ea3-6d67be7a4ac7")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 172.72 63.5 0)
 			(effects
 				(font
@@ -3131,7 +3358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 173.355 73.66 0)
 			(effects
 				(font
@@ -3172,7 +3399,7 @@
 		(instances
 			(project ""
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3188,7 +3415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5153bf4a-095f-41bc-a829-48bd315c41af")
-		(property "Reference" "J?"
+		(property "Reference" "J1"
 			(at 55.88 80.01 0)
 			(effects
 				(font
@@ -3204,7 +3431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 55.88 88.9 0)
 			(effects
 				(font
@@ -3240,7 +3467,7 @@
 		(instances
 			(project "2nd PCB"
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "J?")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -3256,7 +3483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57b4b956-95d3-4f34-890c-c3ab0e95bb63")
-		(property "Reference" "C?"
+		(property "Reference" "C5"
 			(at 187.96 76.5809 0)
 			(effects
 				(font
@@ -3274,7 +3501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 185.1152 82.55 0)
 			(effects
 				(font
@@ -3310,7 +3537,76 @@
 		(instances
 			(project ""
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "C?")
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64c4d6c8-579b-4993-901e-047488929908")
+		(property "Reference" "C3"
+			(at 93.726 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 93.218 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm"
+			(at 91.44 45.4152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7ea906b-62fa-4270-ba6a-32aebe854e42")
+		)
+		(pin "1"
+			(uuid "2e0112cb-8bf6-4cce-9e7c-ecc83afee8f2")
+		)
+		(instances
+			(project "2nd PCB"
+				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3326,7 +3622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "777bde11-303a-4184-90f8-43340ebc0e1b")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 111.76 92.7099 0)
 			(effects
 				(font
@@ -3344,7 +3640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 110.49 91.44 0)
 			(effects
 				(font
@@ -3410,7 +3706,7 @@
 		(instances
 			(project ""
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3418,32 +3714,33 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 95.25 44.45 90)
+		(at 74.93 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80b6cd26-82c4-412b-b87f-8118486620c3")
-		(property "Reference" "C?"
-			(at 94.361 36.83 90)
+		(uuid "81905cf5-f75a-4e67-8b91-0fb41e9668d6")
+		(property "Reference" "C2"
+			(at 68.072 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1nF"
-			(at 94.361 39.37 90)
+		(property "Value" "0.1uF"
+			(at 66.548 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 99.06 43.4848 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+			(at 75.8952 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3749,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 44.45 0)
+			(at 74.93 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3758,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 95.25 44.45 0)
+			(at 74.93 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,15 +3767,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1d6bea11-4f13-4484-9679-393942b2d7d6")
+			(uuid "f115af3e-95bb-4cf5-a77f-7c3ddd8009bd")
 		)
 		(pin "1"
-			(uuid "0180368d-dde3-4eb9-9584-07a354c2ced6")
+			(uuid "96ecc1c5-c759-4c34-8d6c-764e80958a31")
 		)
 		(instances
-			(project ""
+			(project "2nd PCB"
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3494,7 +3791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91a53863-894e-4f4b-9267-be3dac305602")
-		(property "Reference" "J?"
+		(property "Reference" "J4"
 			(at 115.57 80.0099 0)
 			(effects
 				(font
@@ -3512,7 +3809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 113.03 80.01 0)
 			(effects
 				(font
@@ -3548,7 +3845,7 @@
 		(instances
 			(project "2nd PCB"
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "J?")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3564,7 +3861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e41032f-e84d-4846-b417-37efaaa13a54")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 97.79 99.0599 0)
 			(effects
 				(font
@@ -3582,7 +3879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 93.472 100.33 90)
 			(effects
 				(font
@@ -3618,7 +3915,7 @@
 		(instances
 			(project ""
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3634,7 +3931,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8e2d328-9b0c-4324-b2c0-62f4ec0202e0")
-		(property "Reference" "J?"
+		(property "Reference" "J6"
 			(at 204.47 88.9001 0)
 			(effects
 				(font
@@ -3652,7 +3949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 201.93 88.9 0)
 			(effects
 				(font
@@ -3688,7 +3985,7 @@
 		(instances
 			(project "2nd PCB"
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "J?")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3816,7 +4113,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "88492d97-c778-4adb-8695-1c46b9bbccf3")
+			(uuid "88492d97-c778-4adb-8695-1c46b9bbccf4")
 		)
 		(instances
 			(project ""
@@ -3837,7 +4134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea5f60c7-f7ac-47fd-b717-cdfca136e71d")
-		(property "Reference" "J?"
+		(property "Reference" "J5"
 			(at 142.24 86.3599 0)
 			(effects
 				(font
@@ -3855,7 +4152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
 			(at 144.78 86.36 0)
 			(effects
 				(font
@@ -3891,76 +4188,7 @@
 		(instances
 			(project ""
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 74.93 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ec08e281-f5c6-4315-a9ac-461b551d3d00")
-		(property "Reference" "C?"
-			(at 69.342 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 66.294 61.976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 75.8952 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 74.93 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22a70404-3bc0-4bc6-b5b9-f5fd4bca942d")
-		)
-		(pin "1"
-			(uuid "03a36290-da7e-4685-9562-0ae6db67b1f4")
-		)
-		(instances
-			(project ""
-				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "C?")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3976,7 +4204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f39bb99e-8878-456c-869b-3cb690693069")
-		(property "Reference" "C?"
+		(property "Reference" "C4"
 			(at 162.56 76.5809 0)
 			(effects
 				(font
@@ -3994,7 +4222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 159.7152 82.55 0)
 			(effects
 				(font
@@ -4022,15 +4250,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d3d9791-4f59-4146-92ee-1cc514d24cd2")
+			(uuid "7d3d9791-4f59-4146-92ee-1cc514d24cd3")
 		)
 		(pin "2"
-			(uuid "94a2681b-e425-4e27-8725-f5d43b0fb6c7")
+			(uuid "94a2681b-e425-4e27-8725-f5d43b0fb6c8")
 		)
 		(instances
 			(project ""
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "C?")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4046,7 +4274,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9f0ca00-55e4-4ab0-88ee-dfea38fa26fe")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 99.06 80.0099 90)
 			(effects
 				(font
@@ -4064,7 +4292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 101.6 81.28 0)
 			(effects
 				(font
@@ -4118,7 +4346,7 @@
 		(instances
 			(project ""
 				(path "/b9dddfd3-347f-4f6b-bbfd-e9cf35156bed"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)

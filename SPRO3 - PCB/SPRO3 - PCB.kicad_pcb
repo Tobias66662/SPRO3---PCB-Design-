@@ -1779,7 +1779,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C5"
-			(at 1.25 -3.75 360)
+			(at 1.25 -3.75 0)
 			(layer "F.SilkS")
 			(uuid "ab7ea794-2670-48e4-a9da-99a94bd02b4d")
 			(effects
@@ -1790,7 +1790,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 1.25 3.75 360)
+			(at 1.25 3.75 0)
 			(layer "F.Fab")
 			(uuid "2c10b153-67eb-4fde-bb6f-ad5e46425f2d")
 			(effects
@@ -3098,7 +3098,7 @@
 			(uuid "a5654e68-afcf-465a-afc4-2ede0fca6a1c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "F.Fab")
 			(uuid "329f5ba8-c8e8-4ac3-8733-b7b872f19ffb")
 			(effects
@@ -3638,7 +3638,7 @@
 			(uuid "ba32c3db-afb4-43c9-970b-20fc78819914")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "1f3ff436-de6b-4835-b0ec-c5a6c8df4e3a")
 			(effects
@@ -8085,7 +8085,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J13"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "fce893bb-5585-4855-a313-fe0f976267c5")
 			(effects
@@ -8096,7 +8096,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 0 7.41 360)
+			(at 0 7.41 0)
 			(layer "F.Fab")
 			(uuid "d71cdae0-bcee-4e16-b318-568cb6f73e27")
 			(effects
@@ -8363,7 +8363,7 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J1"
-			(at 2.54 -5.08 360)
+			(at 2.54 -5.08 0)
 			(layer "F.SilkS")
 			(uuid "3c0d9afc-3ad9-4cf7-b1c9-8b51ed983fe4")
 			(effects
@@ -8374,7 +8374,7 @@
 			)
 		)
 		(property "Value" "Power Input"
-			(at 2.54 5.08 360)
+			(at 2.54 5.08 0)
 			(layer "F.Fab")
 			(uuid "5b327b1b-4714-499b-9ebd-e1ac0c98fb61")
 			(effects
@@ -8569,7 +8569,7 @@
 			(uuid "2e8776f9-0786-491c-bfdf-71fad735b911")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 360)
+			(at 2.54 0 0)
 			(layer "F.Fab")
 			(uuid "8468c7b7-0ace-42ef-a11f-3562ce3acc8a")
 			(effects
@@ -8836,7 +8836,7 @@
 			(uuid "ffb6145b-e39d-43d6-95b6-48042c979315")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "9cedef01-5448-44b9-9ea9-c67cb49f65eb")
 			(effects
@@ -8909,7 +8909,7 @@
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
-			(at 3.81 -2.33 360)
+			(at 3.81 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "0847acaa-52e6-45b3-9732-4471ffaa0b75")
 			(effects
@@ -8920,7 +8920,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 3.81 9.95 360)
+			(at 3.81 9.95 0)
 			(layer "F.Fab")
 			(uuid "72f3f9e9-950c-432e-9c50-1472285b0b64")
 			(effects
@@ -9177,7 +9177,7 @@
 			(uuid "a9cc8196-b5fa-40be-a41a-691da08d6d75")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 3.81 360)
+			(at 3.81 3.81 0)
 			(layer "F.Fab")
 			(uuid "837215f5-2d74-4e17-af96-3db96d8e36a3")
 			(effects
@@ -10868,7 +10868,7 @@
 			(uuid "ecbfe031-ecec-4de6-9ecb-f0a602c27c94")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "bd09890d-2d56-4a8f-9877-0fe71517bf30")
 			(effects
@@ -10941,7 +10941,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J12"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "7c5d0e52-e417-4aac-916b-018f9a2cbca1")
 			(effects
@@ -10952,7 +10952,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 0 7.41 360)
+			(at 0 7.41 0)
 			(layer "F.Fab")
 			(uuid "0728600c-35ad-4942-93a2-999cc178d093")
 			(effects
@@ -12583,11 +12583,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "7a76a320-28ec-4485-97d7-ff0ea3ebc838")
-		(at 91 140.25)
+		(at 90.25 140.25)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J14"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "b683a5c0-62e8-42e2-a984-f38f6c40d8b9")
 			(effects
@@ -12598,7 +12598,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 0 7.41 360)
+			(at 0 7.41 0)
 			(layer "F.Fab")
 			(uuid "04dbf655-4575-4235-9c0c-4e2d27878787")
 			(effects
@@ -13081,7 +13081,7 @@
 			(uuid "21de718f-a5fd-4ae1-9eda-2578f40c80b0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "dda75783-d723-45fa-b632-e4fe499c9ee0")
 			(effects
@@ -14511,7 +14511,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J4"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "6aa786c6-3bbb-4d1f-aba5-f81640705f0a")
 			(effects
@@ -14522,7 +14522,7 @@
 			)
 		)
 		(property "Value" "L298N Module"
-			(at 0 15.03 360)
+			(at 0 15.03 0)
 			(layer "F.Fab")
 			(uuid "cee3861c-40e3-4a48-a828-bfb668c39e70")
 			(effects
@@ -16060,7 +16060,7 @@
 			(uuid "753ba051-c0be-47d2-a3b4-0776b50e309a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "6f6cc271-40d9-4f63-aff9-3b54971a9a69")
 			(effects
@@ -16122,7 +16122,7 @@
 		(descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
 		(tags "LED diameter 5.0mm 2 pins")
 		(property "Reference" "D2"
-			(at 1.27 -3.96 360)
+			(at 1.27 -3.96 0)
 			(layer "F.SilkS")
 			(uuid "e1115ace-7410-493e-8508-c28ce6d515d4")
 			(effects
@@ -16133,7 +16133,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 3.96 360)
+			(at 1.27 3.96 0)
 			(layer "F.Fab")
 			(uuid "33153669-87b1-42da-b40d-2377a18d99b7")
 			(effects
@@ -16303,7 +16303,7 @@
 			(uuid "852675f1-6dca-4a11-960c-5aa936155c4b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "F.Fab")
 			(uuid "05f89443-e002-48a4-a3ab-bdaaaaa977db")
 			(effects
@@ -16845,7 +16845,7 @@
 			(uuid "016d33ad-b07c-4c7d-bc2d-853c87072a86")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "4dee6c8e-347f-4075-a37c-ac7c99128c63")
 			(effects
@@ -17409,7 +17409,7 @@
 			(uuid "72c6240a-72df-4560-8bef-a43a0818777b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "ba695e0d-585d-4a8e-ba03-c284acbe23fb")
 			(effects
@@ -19110,11 +19110,11 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "cb35fd1e-5045-4e62-90b1-f490485a9075")
-		(at 96.5 140.225)
+		(at 96 140.25)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J15"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "23e73f32-2d8e-43ad-b947-9dc1ac2585a9")
 			(effects
@@ -19125,7 +19125,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 0 7.41 360)
+			(at 0 7.41 0)
 			(layer "F.Fab")
 			(uuid "f50622ec-8fc8-47c1-8679-8b2f303d1b0c")
 			(effects
@@ -19967,7 +19967,7 @@
 			(uuid "5b70dc62-0759-48fa-bc3e-cb2511f41e5d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.Fab")
 			(uuid "de3b39c0-48e5-4043-8114-50f847a0ca67")
 			(effects
@@ -21594,7 +21594,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "e93e55c7-b62b-4631-99a1-c71f0f7a0ca7")
 			(effects
@@ -21605,7 +21605,7 @@
 			)
 		)
 		(property "Value" "2nd PCB"
-			(at 0 4.87 360)
+			(at 0 4.87 0)
 			(layer "F.Fab")
 			(uuid "3a8fbdda-eb6c-493b-a9ff-2a317e73acb1")
 			(effects
@@ -22283,7 +22283,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "8108c824-984f-42b2-8711-98932c8b25f5")
 			(effects
@@ -22294,7 +22294,7 @@
 			)
 		)
 		(property "Value" "Servo Motor"
-			(at 0 7.41 360)
+			(at 0 7.41 0)
 			(layer "F.Fab")
 			(uuid "2a0f0fb8-1f13-42b9-9ddb-67029a56174f")
 			(effects
@@ -22703,14 +22703,6 @@
 		(uuid "00d574df-0e45-4236-9e65-5e6ad0c7c1c9")
 	)
 	(segment
-		(start 96.485 142.765)
-		(end 96.46 142.79)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 18)
-		(uuid "070f3b12-bc43-4d5f-b755-86a3ade8981c")
-	)
-	(segment
 		(start 102 142.75)
 		(end 101.25 142.75)
 		(width 0.5)
@@ -22719,36 +22711,12 @@
 		(uuid "0aa1803b-f418-4631-bb27-3e129e8bdc86")
 	)
 	(segment
-		(start 101.235 142.765)
-		(end 96.5 142.765)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 18)
-		(uuid "0af560de-651f-42ec-8ffc-f1c0dce0a1cd")
-	)
-	(segment
 		(start 82.25 121.25)
 		(end 83.75 119.75)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 18)
 		(uuid "22ffd10a-7124-4063-ba07-db342b6a38ea")
-	)
-	(segment
-		(start 91 142.79)
-		(end 85 142.79)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 18)
-		(uuid "2ad5a02d-605e-40f8-91ef-a4a48948dda4")
-	)
-	(segment
-		(start 96.46 142.79)
-		(end 91 142.79)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 18)
-		(uuid "32a1e5c2-53f2-4a68-892c-1ad981b6cd46")
 	)
 	(segment
 		(start 164.07 94.75)
@@ -22845,14 +22813,6 @@
 		(layer "F.Cu")
 		(net 18)
 		(uuid "746532a1-1373-4092-8fd4-4cd017f3d340")
-	)
-	(segment
-		(start 96.5 142.765)
-		(end 96.485 142.765)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 18)
-		(uuid "7a3db2ea-edd0-4ba1-99f0-5c571a2a5f61")
 	)
 	(segment
 		(start 164.12 94.8)
@@ -23261,5 +23221,69 @@
 		(layer "F.Cu")
 		(net 43)
 		(uuid "e6382bbd-27d4-49ad-bc88-13123429a9d9")
+	)
+	(segment
+		(start 87.76 137.49)
+		(end 85 140.25)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 44)
+		(uuid "3aae4541-c76b-4508-bb8c-d834ead7453c")
+	)
+	(segment
+		(start 87.76 127.37)
+		(end 87.76 137.49)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 44)
+		(uuid "714e1a9e-7287-44ca-8a54-08ba195135ed")
+	)
+	(segment
+		(start 97.92 136.13)
+		(end 102 140.21)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 45)
+		(uuid "7b47596b-8f31-4902-9b11-076804853081")
+	)
+	(segment
+		(start 97.92 127.37)
+		(end 97.92 136.13)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 45)
+		(uuid "d21efb12-fa7a-4205-866a-5de8e8b8dabc")
+	)
+	(segment
+		(start 90.3 127.37)
+		(end 90.3 140.2)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 46)
+		(uuid "09eef1cf-8805-4f25-932e-834d20137dd0")
+	)
+	(segment
+		(start 90.3 140.2)
+		(end 90.25 140.25)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 46)
+		(uuid "50eef641-2a5b-4868-b4cf-00c988386715")
+	)
+	(segment
+		(start 95.38 139.63)
+		(end 96 140.25)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 47)
+		(uuid "1ef4c9b3-16bb-4dbb-a364-92091585b384")
+	)
+	(segment
+		(start 95.38 127.37)
+		(end 95.38 139.63)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 47)
+		(uuid "97eed90a-3d79-4839-ac80-63b126235ef4")
 	)
 )
