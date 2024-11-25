@@ -508,6 +508,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "Net-(D1-A)": "Power",
       "Net-(D2-A)": "Power",
       "Net-(J1-Pin_1)": "Power",
       "Net-(J10-Pin_1)": "Signal",
