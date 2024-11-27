@@ -178,7 +178,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3,
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -429,7 +431,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -444,14 +446,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "2nd PCB.kicad_pro",
+    "filename": "Main PCB.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -475,25 +477,8 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "14V Battery Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 3.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.25,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "5V Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "Power",
+        "pcb_color": "rgb(0, 72, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -510,7 +495,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Signal",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 0, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.6,
@@ -523,23 +508,105 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "GND": "5V Power",
-      "Net-(D1-A)": "14V Battery Power",
-      "Net-(D1-K)": "14V Battery Power",
-      "Net-(J1-Pin_2)": "14V Battery Power",
-      "Net-(J2-Pin_1)": "Signal",
-      "Net-(J3-Pin_1)": "Signal",
-      "Net-(U1-FILTER)": "5V Power",
-      "unconnected-(#FLG01-Pad1)": "Battery Power"
+      "+5V": "Power",
+      "Net-(D1-A)": "Power",
+      "Net-(D2-A)": "Power",
+      "Net-(J1-Pin_1)": "Power",
+      "Net-(J10-Pin_1)": "Signal",
+      "Net-(J10-Pin_2)": "Signal",
+      "Net-(J11-Pin_1)": "Signal",
+      "Net-(J11-Pin_2)": "Signal",
+      "Net-(J12-Pin_1)": "Signal",
+      "Net-(J12-Pin_2)": "Signal",
+      "Net-(J13-Pin_1)": "Signal",
+      "Net-(J13-Pin_2)": "Signal",
+      "Net-(J14-Pin_1)": "Signal",
+      "Net-(J14-Pin_2)": "Signal",
+      "Net-(J15-Pin_1)": "Signal",
+      "Net-(J15-Pin_2)": "Signal",
+      "Net-(J8-Pin_1)": "Signal",
+      "Net-(J8-Pin_2)": "Signal",
+      "Net-(J9-Pin_1)": "Signal",
+      "Net-(J9-Pin_2)": "Signal",
+      "Net-(U1-+)": "Signal",
+      "Net-(U1--)": "Signal"
     },
     "netclass_patterns": [
       {
-        "netclass": "14V Battery Power",
+        "netclass": "Power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
         "pattern": "GND"
       },
       {
-        "netclass": "5V Power",
-        "pattern": "+5V"
+        "netclass": "Signal",
+        "pattern": "/OC2B"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/OC0B"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/OC0A"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/Echo&Trig"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/B"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/A"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/OC2A"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/C"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/IN4"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/IN1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/IN2"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/IN3"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/NTC_Vout(ADC3)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/SDA"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/SCL"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/ADC6"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/ADC7"
       }
     ]
   },
@@ -559,7 +626,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Bill-of-Material (2nd PCB).csv",
+    "bom_export_filename": "Bill-of-Material (main PCB).csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -624,14 +691,20 @@
         },
         {
           "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
+          "label": "Sim.Library",
+          "name": "Sim.Library",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
           "show": false
         },
         {
@@ -688,7 +761,7 @@
   },
   "sheets": [
     [
-      "b9dddfd3-347f-4f6b-bbfd-e9cf35156bed",
+      "53da7c59-d564-4ca1-aec6-a8473e4863ca",
       "Root"
     ]
   ],

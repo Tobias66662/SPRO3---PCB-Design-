@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "b9dddfd3-347f-4f6b-bbfd-e9cf35156bed")
 	(paper "A4")
+	(title_block
+		(title "2nd PCB")
+		(date "2024-11-27")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
@@ -2647,6 +2652,26 @@
 		)
 		(uuid "ff0d8552-96d2-4c18-9459-6b057702c9d4")
 	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 51.562 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd6122ed-41d2-4f25-81b1-5f65f152e84c")
+	)
+	(text "+14V"
+		(exclude_from_sim no)
+		(at 51.054 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d9c49fdb-c68c-4e38-8ba0-a6267d5034ee")
+	)
 	(netclass_flag ""
 		(length 1)
 		(shape dot)
@@ -2730,8 +2755,8 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "2e52f21f-7ab8-491e-9b9c-4ec55813183f")
-		(property "Netclass" "Battery Power"
+		(uuid "41a541b4-f4d6-4b88-8fdb-eff76f45375c")
+		(property "Netclass" "14V Battery Power"
 			(at 108.95 86.9315 90)
 			(effects
 				(font
@@ -2754,9 +2779,33 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7dec0e3a-373c-4c4d-9faa-ac34b5fc2d43")
-		(property "Netclass" "Battery Power"
+		(uuid "4b03edf5-5018-4195-9c24-e89b24bee7b0")
+		(property "Netclass" "14V Battery Power"
 			(at 103.5685 68.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1)
+		(shape dot)
+		(at 100.33 46.99 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d17ed1c-687d-4905-9fa7-9483c179f18c")
+		(property "Netclass" "5V Power"
+			(at 101.33 46.2915 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,32 +2828,8 @@
 			(justify left bottom)
 		)
 		(uuid "a1bfc763-c329-4777-98bd-bb3ef16bfc60")
-		(property "Netclass" "Battery Power"
+		(property "Netclass" "14V Battery Power"
 			(at 65.4685 68.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 1)
-		(shape dot)
-		(at 100.33 48.26 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c92a0f17-7e3a-4ee3-9225-506433945f68")
-		(property "Netclass" "5V Power"
-			(at 99.33 47.5615 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://docs.rs-online.com/0623/0900766b8157c7d5.pdf"
 			(at 55.88 88.9 0)
 			(effects
 				(font
@@ -4016,7 +4041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+		(property "Datasheet" "https://docs.rs-online.com/32cc/0900766b814c8cbb.pdf"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -4185,7 +4210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://dk.rs-online.com/web/p/dc-motorer-jaevnstromsmotorer/2389737?gb=s"
 			(at 113.03 80.01 0)
 			(effects
 				(font
@@ -4325,7 +4350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://docs.rs-online.com/0623/0900766b8157c7d5.pdf"
 			(at 201.93 88.9 0)
 			(effects
 				(font
@@ -4529,7 +4554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://docs.rs-online.com/0623/0900766b8157c7d5.pdf"
 			(at 144.78 86.36 0)
 			(effects
 				(font
@@ -4651,7 +4676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "1N4001"
 			(at 99.06 82.5499 90)
 			(effects
 				(font
@@ -4669,7 +4694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/88503/1n4001.pdf"
 			(at 101.6 81.28 0)
 			(effects
 				(font
