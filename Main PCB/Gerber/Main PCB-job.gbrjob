@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.5"
     },
-    "CreationDate": "2024-11-27T13:48:43+01:00"
+    "CreationDate": "2024-12-09T00:54:55+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Main PCB",
       "GUID": "4d61696e-2050-4434-922e-6b696361645f",
-      "Revision": "1"
+      "Revision": "2"
     },
     "Size": {
       "X": 100.1,

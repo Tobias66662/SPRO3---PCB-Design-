@@ -618,7 +618,7 @@
       "plot": "Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Step (Main PCB).step",
       "svg": "",
       "vrml": ""
     },
@@ -626,7 +626,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "Bill-of-Material (main PCB).csv",
+    "bom_export_filename": "Bill-of-Material (Main PCB).csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
